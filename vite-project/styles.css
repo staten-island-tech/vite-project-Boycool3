@@ -1,0 +1,45 @@
+:root {
+  --white-lm: #ffeca1;
+  --light-lm: #ffd700;
+  --mid-lm: #e97b13;
+  --vibrant-lm: #ec4242;
+  --dark-lm: #dc143c;
+  --black-lm: #580515;
+  --white-dm: #ca82ac;
+  --light-dm: #81178f;
+  --mid-dm: #4a2f96;
+  --vibrant-dm: #6e31a7;
+  --dark-dm: #411d70;
+  --black-dm: #140220;
+
+  --primary: var(--white-lm);
+  --secondary: var(--light-lm);
+  --tertiary: var(--vibrant-lm);
+  --quaternary: var(--dark-lm);
+  --quinary: var(--mid-lm);
+  --senary: var(--black-lm)
+}
+  
+.light {
+  --primary: var(--white-lm);
+  --secondary: var(--light-lm);
+  --tertiary: var(--vibrant-lm);
+  --quaternary: var(--dark-lm);
+  --quinary: var(--mid-lm);
+  --senary: var(--black-lm)
+}
+
+.dark {
+  --primary: var(--white-dm);
+  --secondary: var(--light-dm);
+  --tertiary: var(--vibrant-dm);
+  --quaternary: var(--dark-dm);
+  --quinary: var(--mid-dm);
+  --senary: var(--black-dm)
+}
+  
+  body,
+* {
+  background-color: var(--primary)
+}
+

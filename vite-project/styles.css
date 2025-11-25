@@ -43,3 +43,12 @@
   background-color: var(--primary)
 }
 
+.hero {
+  background-color: var(--tertiary);
+  color: var(--senary);
+}
+
+.main {
+  background-color: var(--quaternary);
+  height: 90vh;
+}

@@ -7,10 +7,10 @@
   --black-lm: #580515;
   --white-dm: #8b5876;
   --light-dm: #6b1377;
-  --mid-dm: #3f2880;
-  --vibrant-dm: #652d99;
-  --dark-dm: #311358;
-  --black-dm: #140220;
+  --mid-dm: #470653;
+  --vibrant-dm: #542680;
+  --dark-dm: #1e123f;
+  --black-dm: #0e0116;
 
   --primary: var(--white-lm);
   --secondary: var(--light-lm);
@@ -57,9 +57,38 @@
   background-color: var(--tertiary);
   color: var(--senary);
   margin-bottom: 10px;
+  padding: 20px;
+  text-align: left;
+  font-style: italic;
+  border: 10px, ridge, var(--senary);
 }
 
 .main {
-  background-color: var(--quaternary);
-  height: 90vh;
+  background-color: var(--secondary);
+  border: 8px, double, var(--quinary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h3{
+  background-color: var(--secondary);
+  border: 8px, double, var(--quinary);
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+  color: var(--senary);
+}
+.containerplus{
+  background-color: var(--secondary);
+  border: 8px, double, var(--quinary);
+  border-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container{
+  background-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

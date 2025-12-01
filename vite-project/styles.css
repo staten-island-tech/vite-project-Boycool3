@@ -1,15 +1,15 @@
 :root {
   --white-lm: #ffeca1;
   --light-lm: #ffd700;
-  --mid-lm: #e97b13;
+  --mid-lm: #f09012;
   --vibrant-lm: #ec4242;
   --dark-lm: #dc143c;
   --black-lm: #580515;
-  --white-dm: #ca82ac;
-  --light-dm: #81178f;
-  --mid-dm: #4a2f96;
-  --vibrant-dm: #6e31a7;
-  --dark-dm: #411d70;
+  --white-dm: #8b5876;
+  --light-dm: #6b1377;
+  --mid-dm: #3f2880;
+  --vibrant-dm: #652d99;
+  --dark-dm: #311358;
   --black-dm: #140220;
 
   --primary: var(--white-lm);
@@ -17,7 +17,7 @@
   --tertiary: var(--vibrant-lm);
   --quaternary: var(--dark-lm);
   --quinary: var(--mid-lm);
-  --senary: var(--black-lm)
+  --senary: var(--black-lm);
 }
   
 .light {
@@ -26,7 +26,7 @@
   --tertiary: var(--vibrant-lm);
   --quaternary: var(--dark-lm);
   --quinary: var(--mid-lm);
-  --senary: var(--black-lm)
+  --senary: var(--black-lm);
 }
 
 .dark {
@@ -35,17 +35,28 @@
   --tertiary: var(--vibrant-dm);
   --quaternary: var(--dark-dm);
   --quinary: var(--mid-dm);
-  --senary: var(--black-dm)
+  --senary: var(--black-dm);
 }
   
   body,
 * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   background-color: var(--primary);
+}
+.btn{
+  width: 125px;
+  height: 35px;
+  background-color: var(--tertiary);
+  border: 6px, ridge, var(--quaternary);
+  color: var(--senary);
 }
 
 .hero {
   background-color: var(--tertiary);
   color: var(--senary);
+  margin-bottom: 10px;
 }
 
 .main {
